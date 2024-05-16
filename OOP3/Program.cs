@@ -22,4 +22,4 @@ basvuruManager.BasvuruYap(new EsnafKradisiManager(), new List<ILoggerService> { 
 
 Console.WriteLine("----------------------------------------------");
 List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyacKredisi, tasitKrediManager };
-basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+basvuruManager.KrediOnBilgilendirmesiYap(krediler);   
