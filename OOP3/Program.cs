@@ -25,7 +25,7 @@ Console.WriteLine("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
 List<IKrediManager> krediler = new List<IKrediManager>() 
 {
     new IhtiyacKrediManager(), 
-    new TasitKrediManager(), 
+    new TasitKrediManager(),  
     new KonutKrediManager() 
 };
 
